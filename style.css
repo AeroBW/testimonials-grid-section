@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --color-moderateViolet: hsl(263, 55%, 52%);
+    --color-veryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --color-veryDarkBlackishBlue: hsl(219, 29%, 14%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-lightGray: hsl(0, 0%, 81%);
+    --color-lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+html {
+    font-size: 13px;
+}
+
+
+
+.attribution {
+    font-size: clamp(9px, 7.9565px + 0.3261vw, 12px);
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
